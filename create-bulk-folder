@@ -1,0 +1,6 @@
+@ECHO ON
+SET RootDir=C:\Users\Administrator\Documents\EMAIL CHECK\OUtput_Domain
+SET SubA=gmail.com, yahoo.com, outlook.com, hotmail.com, icloud.com, aol.com, protonmail.com, mail.com, msn.com, live.com, verizon.net, comcast.net, att.net, sbcglobal.net, cox.net, charter.net, me.com, optonline.net, mac.com, netscape.net, rocketmail.com, earthlink.net, aim.com, juno.com, windstream.net, centurylink.net, roadrunner.com, pacbell.net, bellsouth.net, frontier.com, netzero.net, usa.net, sympatico.ca, mindspring.com, adelphia.net, prodigy.net, pacific.net, cfl.rr.com, twc.com, rogers.com, wideopenwest.com, q.com, suddenlink.net, peoplepc.com, mchsi.com, cinci.rr.com, hughes.net, gci.net, insightbb.com, blueyonder.co.uk, cableone.net, shaw.ca, rochester.rr.com, cbs.com, ameritech.net, zoominternet.net, ntlworld.com, nyu.edu, eastlink.ca
+SET SubB=1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100
+FOR %%A IN (%SubA%) DO FOR %%B IN (%SubB%) DO IF NOT EXIST "%RootDir%\%%~A\%%~B" MD "%RootDir%\%%~A\%%~B"
+EXIT
